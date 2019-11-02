@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    margin-top: 100px;
+    margin-left: 50px;
+    background: url("./1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+li {
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 0;
+    width: 370px;/* 
+    margin-right: 20px;
+    margin-left: 10px; */
+}
+
+#form{
+    width: 800px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(250, 121, 70);
+}
+
+ul{
+    padding: 0;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+li p{
+    color:white;
+    display: inline;
+    float: right;
+}
+
+li:hover{
+    background-color: rgba(245, 88, 88, 0.726);
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#completed{
+    position: relative;
+    left: 2%;
+    max-width: 400px;
+    display: none;
+}
+
+#completed li{
+    display: none;
+    background-color: rgba(255, 235, 205,0.7);
+}
+
+.header{
+}
+
+button:hover{
+    background-color: #003399;
+    cursor: pointer;
+}
